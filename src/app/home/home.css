@@ -1,0 +1,40 @@
+h1 {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #ebe1e1;
+}
+.corner-image {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  filter: blur(0.5px);
+  border-radius: 10px;
+}
+.pro-pic {
+  position: absolute;
+  top: 200px;
+  left: 1000px;
+  border-radius: 150px;
+}
+.profile-info {
+  position: absolute;
+  top: 325px;
+  left: 70px;
+  display: flex;
+  justify-content: center;
+
+  background-color: rgba(3, 39, 39, 0.8);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  max-width: 900px;
+  margin: auto;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
